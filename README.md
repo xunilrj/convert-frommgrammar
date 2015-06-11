@@ -7,10 +7,7 @@ Support the idea to revive Oslo: http://www.cazzulino.com/opensource-m.html
 
 Powrshell:
 ```powershell
-Import-Module "E:\GitHub\convert-frommgrammar\ConvertFromMGrammar\bin\Debug\System.DataFlow.dll"
-Import-Module "E:\GitHub\convert-frommgrammar\ConvertFromMGrammar\bin\Debug\Microsoft.M.dll"
-Import-Module "E:\GitHub\convert-frommgrammar\ConvertFromMGrammar\bin\Debug\Xaml.dll"
-Import-Module "E:\GitHub\convert-frommgrammar\ConvertFromMGrammar\bin\Debug\ConvertFromMGrammar.dll"
+(New-Object System.Net.WebClient).DownloadString("https://github.com/xunilrj/convert-frommgrammar/releases/download/v0.1/InstallConvertFromMGrammar.ps1") | iex
 
 $l = 'module MyParsers
 {
